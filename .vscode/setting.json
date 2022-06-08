@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+        "gitops": {
+            "runewith": "jenkins-master",
+            "name": "gitops",
+            "isDefault": true
+        }
+    },
+    "jenkins-runner.hostconfigs": {
+        "jenkins-master": {
+            "url": "http://54.159.223.103:8080/",
+            "user": "admin",
+            "password": "admin123",
+            "useCrumbIssuer": true 
+        }
+    }
+}
